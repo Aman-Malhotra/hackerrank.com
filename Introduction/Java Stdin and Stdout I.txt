@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner aman = new Scanner(System.in);
+      int x[]=new int[3];
+        for(int i=0;i<3;i++)
+            x[i]=aman.nextInt();
+        for(int a=0;a<3;a++)
+            System.out.println(x[a]);
+           
+    } 
+}

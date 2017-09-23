@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class Solution
+    {
+    public static void main(String[] args)
+        {
+        Scanner aman=new Scanner(System.in);
+        int i=aman.nextInt();
+        for(int x=1;x<=10;x++)
+            System.out.println(i+" x "+x+" = "+i*x);
+    }
+}

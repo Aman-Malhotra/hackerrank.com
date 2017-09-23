@@ -1,0 +1,23 @@
+ class Add
+    {
+    public void  add(int a,int b){
+        int S1=a+b;
+        System.out.printf("%s+%s=%s",a,b,S1);
+        System.out.println();
+    }
+    public void add(int c,int d,int e){
+        int S2=c+d+e;
+        System.out.printf("%s+%s+%s=%s",c,d,e,S2);
+        System.out.println();
+    }
+    public void add(int f,int g, int h , int i,int j){
+        int S3=f+g+h+i+j;
+        System.out.printf("%s+%s+%s+%s+%s=%s",f,g,h,i,j,S3);
+        System.out.println();
+    }
+    public void add(int k,int l,int  m,int n,int o,int p){
+        int S4=k+l+m+n+o+p;
+        System.out.printf("%s+%s+%s+%s+%s+%s=%s",k,l,m,n,o,p,S4);
+        System.out.println();
+    }
+}

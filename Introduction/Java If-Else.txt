@@ -1,0 +1,18 @@
+import java.util.Scanner;
+    class aman
+    {
+    public static void main(String args[]){
+        Scanner input = new Scanner (System.in);
+       int  n=input.nextInt();
+        if(n%2==0)
+        {
+            if(n<5||n>20)
+            System.out.println("Not Weird");
+          
+            else
+            System.out.println("Weird");
+        }
+        else 
+            System.out.println("Weird");
+        }
+    }

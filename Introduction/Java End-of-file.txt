@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class solution 
+    {
+    public static void main(String args[])
+        {
+        Scanner aman=new Scanner(System.in);
+        String input[]=new String[10000];
+        int a=0;
+        while(aman.hasNext())
+            {
+            input[a]=aman.nextLine();
+            a++;
+        }
+        for(int x=0;x<a;x++)
+            System.out.println((x+1)+" "+input[x]);
+    }
+}
